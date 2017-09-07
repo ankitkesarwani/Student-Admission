@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ankit.studentadmission">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/download"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Splashscreen"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".displaydetails"
+            android:label="Details"
+            android:parentActivityName=".login">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".login" >
+            </meta-data>
+        </activity>
+        <activity
+            android:name=".createdet"
+            android:label="About Us"
+            android:parentActivityName=".login">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".login" >
+            </meta-data>
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="About Us"
+            android:parentActivityName=".login">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".login" >
+            </meta-data>
+        </activity>
+        <activity
+            android:name=".ContactUs"
+            android:label="Contact Us"
+            android:parentActivityName=".login">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".login" >
+            </meta-data>
+        </activity>
+        <activity
+            android:name=".RateUs"
+            android:label="Rate Us"
+            android:parentActivityName=".login">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".login" >
+            </meta-data>
+        </activity>
+        <activity
+            android:name=".Exit"
+            android:label="Exit"
+            android:parentActivityName=".login">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".login" >
+            </meta-data>
+        </activity>
+    </application>
+
+</manifest>

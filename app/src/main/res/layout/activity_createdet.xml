@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ankit.studentadmission.createdet"
+    android:background="#0b0b0b">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/editText3"
+    android:hint="Name"
+    android:backgroundTint="#1517cd"
+    android:textColorHint="#e2dddd"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignRight="@+id/editText8"
+    android:layout_alignEnd="@+id/editText8"
+    android:textColor="#f60707" />
+
+        <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/editText5"
+    android:layout_below="@+id/editText4"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignRight="@+id/editText4"
+    android:layout_alignEnd="@+id/editText4"
+    android:hint="Contact Number"
+    android:backgroundTint="#1517cd"
+    android:textColorHint="#e2dddd"
+    android:textColor="#f60707" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/editText6"
+    android:layout_below="@+id/editText5"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignRight="@+id/editText5"
+    android:layout_alignEnd="@+id/editText5"
+    android:hint="Gender"
+    android:backgroundTint="#1517cd"
+    android:textColorHint="#e2dddd"
+    android:textColor="#f60707" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/editText7"
+    android:layout_below="@+id/editText6"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignRight="@+id/editText6"
+    android:layout_alignEnd="@+id/editText6"
+    android:hint="Date of Birth"
+    android:backgroundTint="#1517cd"
+    android:textColorHint="#e2dddd"
+    android:textColor="#f60707" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/editText8"
+    android:layout_below="@+id/editText7"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:hint="Address"
+    android:backgroundTint="#1517cd"
+    android:textColorHint="#e2dddd"
+    android:textColor="#f60707" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/editText9"
+    android:layout_below="@+id/editText8"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignRight="@+id/editText8"
+    android:layout_alignEnd="@+id/editText8"
+    android:hint="Choose Username"
+    android:backgroundTint="#1517cd"
+    android:textColorHint="#e2dddd"
+    android:textColor="#f60707" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editText11"
+            android:hint="Password"
+            android:backgroundTint="#1517cd"
+            android:textColor="#f60707"
+            android:textColorHint="#e2dddd" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editText10"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="44dp"
+            android:hint="Confirm Password"
+            android:textColor="#f60707"
+            android:textColorHint="#e2dddd"
+            android:backgroundTint="#1517cd" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign up"
+            android:id="@+id/button5"
+            android:onClick="SaveData"
+            android:background="#19c3c1"
+            android:textColor="#e2dddd"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:text="Back to Login page"
+            android:onClick="Back"
+            android:background="#1517cd"
+            android:textColor="#e2dddd"
+            android:layout_below="@+id/scrollView2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
